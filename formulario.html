@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+    <meta name="description" content="Llena el formulario para brindarte la mejor atención"/>
+<title>Fomulario</title>
+        <link href="styles.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form action="envia.php" method="POST", class="form input">
+        <div class="container">
+            <h1>Registrate</h1>
+            <p>Llena el formulario para brindarte la mejor atención</p>
+            <hr>
+
+        <p>Nombre:
+            <input type="text" name="nombre" 
+            placeholder="Nombre Completo" class="form input" size="40"required>
+        </p>
+        <p>Email:
+            <input type="Email" name="Email" 
+            placeholder="Email" class="form input" required>
+        </p>    
+        <p>Celular:
+             <input type="text" name="Celular" class="form input" 
+             placeholder="Introduce tu celular con código de área" required>
+        </p>
+        <p>Consulta:
+             <textarea name="Consulta" class="form input" 
+             placeholder="Escribe tu consulta"></textarea>
+        </p>
+        <p>
+            <input type="Submit" value="Enviar" class="form input">
+        </p>    
+    </form>   
+</body>  
+</html>
